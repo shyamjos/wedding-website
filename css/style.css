@@ -298,7 +298,7 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 
 .fh5co-cover {
-  height: 900px;
+  height: 1000px;
   background-size: cover;
   background-repeat: no-repeat;
   position: relative;
@@ -319,7 +319,7 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 @media screen and (max-width: 768px) {
   .fh5co-cover {
-    height: 600px;
+    height: 900px;
   }
 }
 .fh5co-cover .display-t,
@@ -833,6 +833,7 @@ form label {
 .fh5co-cover .display-tc {
   display: table-cell !important;
   vertical-align: middle;
+  padding-top: 130px;
 }
 #fh5co-header .display-tc h1, #fh5co-header .display-tc h2,
 #fh5co-counter .display-tc h1,
@@ -870,8 +871,7 @@ form label {
 .fh5co-cover .display-tc h2 {
   font-size: 20px;
   line-height: 1.5;
-  margin-bottom: 30px;
-  margin-top: 53px;
+  margin-top: 20px;
   font-family: Engagement;
 }
 @media screen and (max-width: 480px) {
