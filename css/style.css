@@ -317,9 +317,9 @@ h1, h2, h3, h4, h5, h6, figure {
   position: relative;
   z-index: 10;
 }
-@media screen and (max-width: 768px) {
+@media screen and (min-width: 1920px) {
   .fh5co-cover {
-    height: 900px;
+    height: 100vh;
   }
 }
 .fh5co-cover .display-t,
