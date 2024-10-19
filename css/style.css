@@ -226,6 +226,7 @@ h1, h2, h3, h4, h5, h6, figure {
 
 #fh5co-counter,
 #fh5co-event,
+#fh5co-details,
 .fh5co-bg {
   background-size: cover;
   background-position: top center;
@@ -357,7 +358,7 @@ h1, h2, h3, h4, h5, h6, figure {
 
 #fh5co-counter,
 #fh5co-event {
-  height: 850px;
+  height: 1150px;
   float: left;
 }
 #fh5co-counter .display-t,
@@ -369,11 +370,13 @@ h1, h2, h3, h4, h5, h6, figure {
   width: 100%;
 }
 #fh5co-counter .fh5co-heading h2,
-#fh5co-event .fh5co-heading h2 {
+#fh5co-event .fh5co-heading h2,
+#fh5co-details .fh5co-heading h2{
   color: #646464;
 }
 #fh5co-counter .fh5co-heading span,
-#fh5co-event .fh5co-heading span {
+#fh5co-event .fh5co-heading span,
+#fh5co-details .fh5co-heading span {
   color: rgb(0, 0, 0);
   text-transform: uppercase;
   font-size: 13px;
@@ -381,7 +384,8 @@ h1, h2, h3, h4, h5, h6, figure {
   font-weight: 600;
 }
 #fh5co-counter .overlay,
-#fh5co-event .overlay {
+#fh5co-event .overlay, 
+#fh5co-details .overlay {
   position: absolute;
   top: 0;
   left: 0;
@@ -1802,6 +1806,23 @@ form label {
 .js .animate-box {
   opacity: 0;
 }
+
+.collapsible {
+  /* background-color: white; */
+  color: black;
+  cursor: pointer;
+  padding: 10px;
+  width: 100%;
+  border: black;
+  text-align: center;
+  outline: black;
+  /* font-size: 18px; */
+  margin-top: 10px;
+}
+
+/* #fh5co-details {
+  margin-top: 13%;
+} */
 
 /*# sourceMappingURL=style.css.map */
 
