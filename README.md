@@ -7,5 +7,5 @@ To set the countdown date see below section in `js/clock.js`
   let targetDate = moment.tz("2023-10-29 12:00", "Asia/Kolkata");
 ````
 
-## Sreenshot
+## Screenshot
 ![screenshot](https://repository-images.githubusercontent.com/698651028/d9cbed4d-10e2-44bd-bca8-e26a251ff182)
